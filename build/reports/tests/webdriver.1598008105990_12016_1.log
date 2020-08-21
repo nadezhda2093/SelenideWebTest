@@ -1,0 +1,318 @@
+[1598008106.102][INFO]: Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 34593
+[1598008106.102][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1598008106.765][INFO]: [f5099fa5c127d462dee2e9f49cf498b9] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Project\\UITest\\build\\downloads\\1598008105615_12016_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Project\\UITest\\build\\downloads\\1598008105615_12016_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1598008106.898][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Project\\UITest\\build\\downloads\\1598008105615_12016_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1598008106.902][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1598008106.904][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\NGAVRI~1\AppData\Local\Temp\scoped_dir2584_1535360782" data:,
+[1598008107.379][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1598008109.389][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1598008111.397][INFO]: [f5099fa5c127d462dee2e9f49cf498b9] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "83.0.4103.116",
+      "chrome": {
+         "chromedriverVersion": "83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416})",
+         "userDataDir": "C:\\Users\\NGAVRI~1\\AppData\\Local\\Temp\\scoped_dir2584_1535360782"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:61307"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "f5099fa5c127d462dee2e9f49cf498b9"
+}
+[1598008111.422][INFO]: [f5099fa5c127d462dee2e9f49cf498b9] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1598008111.423][INFO]: Waiting for pending navigations...
+[1598008111.433][INFO]: Done waiting for pending navigations. Status: ok
+[1598008111.542][INFO]: Waiting for pending navigations...
+[1598008111.543][INFO]: Done waiting for pending navigations. Status: ok
+[1598008111.543][INFO]: [f5099fa5c127d462dee2e9f49cf498b9] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 10,
+   "y": 10
+}
+[1598008111.548][INFO]: [f5099fa5c127d462dee2e9f49cf498b9] COMMAND Navigate {
+   "url": "https://www.open.ru//bank/overview"
+}
+[1598008111.548][INFO]: Waiting for pending navigations...
+[1598008111.548][INFO]: Done waiting for pending navigations. Status: ok
+[1598008111.883][INFO]: Waiting for pending navigations...
+[1598008113.389][INFO]: Done waiting for pending navigations. Status: ok
+[1598008113.389][INFO]: [f5099fa5c127d462dee2e9f49cf498b9] RESPONSE Navigate
+[1598008113.437][INFO]: [f5099fa5c127d462dee2e9f49cf498b9] COMMAND FindElements {
+   "using": "css selector",
+   "value": "#accounts .account"
+}
+[1598008113.437][INFO]: Waiting for pending navigations...
+[1598008113.438][INFO]: Done waiting for pending navigations. Status: ok
+[1598008113.446][INFO]: Waiting for pending navigations...
+[1598008113.446][INFO]: Done waiting for pending navigations. Status: ok
+[1598008113.447][INFO]: [f5099fa5c127d462dee2e9f49cf498b9] RESPONSE FindElements [  ]
+[1598008113.652][INFO]: [f5099fa5c127d462dee2e9f49cf498b9] COMMAND FindElements {
+   "using": "css selector",
+   "value": "#accounts .account"
+}
+[1598008113.678][INFO]: Waiting for pending navigations...
+[1598008113.684][INFO]: Done waiting for pending navigations. Status: ok
+[1598008113.687][INFO]: Waiting for pending navigations...
+[1598008113.687][INFO]: Done waiting for pending navigations. Status: ok
+[1598008113.687][INFO]: [f5099fa5c127d462dee2e9f49cf498b9] RESPONSE FindElements [  ]
+[1598008113.890][INFO]: [f5099fa5c127d462dee2e9f49cf498b9] COMMAND FindElements {
+   "using": "css selector",
+   "value": "#accounts .account"
+}
+[1598008113.893][INFO]: Waiting for pending navigations...
+[1598008113.894][INFO]: Done waiting for pending navigations. Status: ok
+[1598008113.897][INFO]: Waiting for pending navigations...
+[1598008113.897][INFO]: Done waiting for pending navigations. Status: ok
+[1598008113.897][INFO]: [f5099fa5c127d462dee2e9f49cf498b9] RESPONSE FindElements [  ]
+[1598008114.100][INFO]: [f5099fa5c127d462dee2e9f49cf498b9] COMMAND FindElements {
+   "using": "css selector",
+   "value": "#accounts .account"
+}
+[1598008114.100][INFO]: Waiting for pending navigations...
+[1598008114.101][INFO]: Done waiting for pending navigations. Status: ok
+[1598008114.104][INFO]: Waiting for pending navigations...
+[1598008114.105][INFO]: Done waiting for pending navigations. Status: ok
+[1598008114.105][INFO]: [f5099fa5c127d462dee2e9f49cf498b9] RESPONSE FindElements [  ]
+[1598008114.307][INFO]: [f5099fa5c127d462dee2e9f49cf498b9] COMMAND FindElements {
+   "using": "css selector",
+   "value": "#accounts .account"
+}
+[1598008114.307][INFO]: Waiting for pending navigations...
+[1598008114.308][INFO]: Done waiting for pending navigations. Status: ok
+[1598008114.311][INFO]: Waiting for pending navigations...
+[1598008114.312][INFO]: Done waiting for pending navigations. Status: ok
+[1598008114.312][INFO]: [f5099fa5c127d462dee2e9f49cf498b9] RESPONSE FindElements [  ]
+[1598008114.517][INFO]: [f5099fa5c127d462dee2e9f49cf498b9] COMMAND FindElements {
+   "using": "css selector",
+   "value": "#accounts .account"
+}
+[1598008114.517][INFO]: Waiting for pending navigations...
+[1598008114.519][INFO]: Done waiting for pending navigations. Status: ok
+[1598008114.527][INFO]: Waiting for pending navigations...
+[1598008114.529][INFO]: Done waiting for pending navigations. Status: ok
+[1598008114.529][INFO]: [f5099fa5c127d462dee2e9f49cf498b9] RESPONSE FindElements [  ]
+[1598008114.734][INFO]: [f5099fa5c127d462dee2e9f49cf498b9] COMMAND FindElements {
+   "using": "css selector",
+   "value": "#accounts .account"
+}
+[1598008114.735][INFO]: Waiting for pending navigations...
+[1598008114.736][INFO]: Done waiting for pending navigations. Status: ok
+[1598008114.739][INFO]: Waiting for pending navigations...
+[1598008114.739][INFO]: Done waiting for pending navigations. Status: ok
+[1598008114.739][INFO]: [f5099fa5c127d462dee2e9f49cf498b9] RESPONSE FindElements [  ]
+[1598008114.945][INFO]: [f5099fa5c127d462dee2e9f49cf498b9] COMMAND FindElements {
+   "using": "css selector",
+   "value": "#accounts .account"
+}
+[1598008114.945][INFO]: Waiting for pending navigations...
+[1598008114.947][INFO]: Done waiting for pending navigations. Status: ok
+[1598008114.954][INFO]: Waiting for pending navigations...
+[1598008114.955][INFO]: Done waiting for pending navigations. Status: ok
+[1598008114.955][INFO]: [f5099fa5c127d462dee2e9f49cf498b9] RESPONSE FindElements [  ]
+[1598008115.157][INFO]: [f5099fa5c127d462dee2e9f49cf498b9] COMMAND FindElements {
+   "using": "css selector",
+   "value": "#accounts .account"
+}
+[1598008115.159][INFO]: Waiting for pending navigations...
+[1598008115.160][INFO]: Done waiting for pending navigations. Status: ok
+[1598008115.163][INFO]: Waiting for pending navigations...
+[1598008115.164][INFO]: Done waiting for pending navigations. Status: ok
+[1598008115.164][INFO]: [f5099fa5c127d462dee2e9f49cf498b9] RESPONSE FindElements [  ]
+[1598008115.368][INFO]: [f5099fa5c127d462dee2e9f49cf498b9] COMMAND FindElements {
+   "using": "css selector",
+   "value": "#accounts .account"
+}
+[1598008115.368][INFO]: Waiting for pending navigations...
+[1598008115.386][INFO]: Done waiting for pending navigations. Status: ok
+[1598008115.391][INFO]: Waiting for pending navigations...
+[1598008115.392][INFO]: Done waiting for pending navigations. Status: ok
+[1598008115.392][INFO]: [f5099fa5c127d462dee2e9f49cf498b9] RESPONSE FindElements [  ]
+[1598008115.595][INFO]: [f5099fa5c127d462dee2e9f49cf498b9] COMMAND FindElements {
+   "using": "css selector",
+   "value": "#accounts .account"
+}
+[1598008115.595][INFO]: Waiting for pending navigations...
+[1598008115.596][INFO]: Done waiting for pending navigations. Status: ok
+[1598008115.599][INFO]: Waiting for pending navigations...
+[1598008115.600][INFO]: Done waiting for pending navigations. Status: ok
+[1598008115.600][INFO]: [f5099fa5c127d462dee2e9f49cf498b9] RESPONSE FindElements [  ]
+[1598008115.803][INFO]: [f5099fa5c127d462dee2e9f49cf498b9] COMMAND FindElements {
+   "using": "css selector",
+   "value": "#accounts .account"
+}
+[1598008115.803][INFO]: Waiting for pending navigations...
+[1598008115.804][INFO]: Done waiting for pending navigations. Status: ok
+[1598008115.806][INFO]: Waiting for pending navigations...
+[1598008115.807][INFO]: Done waiting for pending navigations. Status: ok
+[1598008115.807][INFO]: [f5099fa5c127d462dee2e9f49cf498b9] RESPONSE FindElements [  ]
+[1598008116.011][INFO]: [f5099fa5c127d462dee2e9f49cf498b9] COMMAND FindElements {
+   "using": "css selector",
+   "value": "#accounts .account"
+}
+[1598008116.011][INFO]: Waiting for pending navigations...
+[1598008116.013][INFO]: Done waiting for pending navigations. Status: ok
+[1598008116.016][INFO]: Waiting for pending navigations...
+[1598008116.016][INFO]: Done waiting for pending navigations. Status: ok
+[1598008116.016][INFO]: [f5099fa5c127d462dee2e9f49cf498b9] RESPONSE FindElements [  ]
+[1598008116.219][INFO]: [f5099fa5c127d462dee2e9f49cf498b9] COMMAND FindElements {
+   "using": "css selector",
+   "value": "#accounts .account"
+}
+[1598008116.219][INFO]: Waiting for pending navigations...
+[1598008116.220][INFO]: Done waiting for pending navigations. Status: ok
+[1598008116.222][INFO]: Waiting for pending navigations...
+[1598008116.223][INFO]: Done waiting for pending navigations. Status: ok
+[1598008116.223][INFO]: [f5099fa5c127d462dee2e9f49cf498b9] RESPONSE FindElements [  ]
+[1598008116.426][INFO]: [f5099fa5c127d462dee2e9f49cf498b9] COMMAND FindElements {
+   "using": "css selector",
+   "value": "#accounts .account"
+}
+[1598008116.426][INFO]: Waiting for pending navigations...
+[1598008116.427][INFO]: Done waiting for pending navigations. Status: ok
+[1598008116.432][INFO]: Waiting for pending navigations...
+[1598008116.432][INFO]: Done waiting for pending navigations. Status: ok
+[1598008116.432][INFO]: [f5099fa5c127d462dee2e9f49cf498b9] RESPONSE FindElements [  ]
+[1598008116.635][INFO]: [f5099fa5c127d462dee2e9f49cf498b9] COMMAND FindElements {
+   "using": "css selector",
+   "value": "#accounts .account"
+}
+[1598008116.635][INFO]: Waiting for pending navigations...
+[1598008116.636][INFO]: Done waiting for pending navigations. Status: ok
+[1598008116.639][INFO]: Waiting for pending navigations...
+[1598008116.640][INFO]: Done waiting for pending navigations. Status: ok
+[1598008116.640][INFO]: [f5099fa5c127d462dee2e9f49cf498b9] RESPONSE FindElements [  ]
+[1598008116.843][INFO]: [f5099fa5c127d462dee2e9f49cf498b9] COMMAND FindElements {
+   "using": "css selector",
+   "value": "#accounts .account"
+}
+[1598008116.843][INFO]: Waiting for pending navigations...
+[1598008116.844][INFO]: Done waiting for pending navigations. Status: ok
+[1598008116.848][INFO]: Waiting for pending navigations...
+[1598008116.848][INFO]: Done waiting for pending navigations. Status: ok
+[1598008116.848][INFO]: [f5099fa5c127d462dee2e9f49cf498b9] RESPONSE FindElements [  ]
