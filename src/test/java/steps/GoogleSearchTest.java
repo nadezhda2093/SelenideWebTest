@@ -36,8 +36,8 @@ public class GoogleSearchTest {
     @Test
     public void compareSellingRateWithPurchaseRateUSD() {
         openMainPageBank();
-        SelenideElement courseUSDBuy = $(xpath("//div[@class='main-page-exchange__td--inner']/span[contains(.,'USD')]/parent::*/../..//td[@class='main-page-exchange__td'][2]/div/span"));
-        SelenideElement courseUSDSale = $(xpath("//div[@class='main-page-exchange__td--inner']/span[contains(.,'USD')]/parent::*/../..//td[@class='main-page-exchange__td'][3]/div/span"));
+        SelenideElement courseUSDBuy = $(xpath("//span[contains(.,'USD')]/parent::*/../..//td[@class='main-page-exchange__td'][2]/div/span"));
+        SelenideElement courseUSDSale = $(xpath("//span[contains(.,'USD')]/parent::*/../..//td[@class='main-page-exchange__td'][3]/div/span"));
         $(".main-page-info__block").find(byText("курс обмена в")).scrollTo();
         element(courseUSDBuy).shouldBe(visible);
         element(courseUSDSale).shouldBe(visible);
@@ -54,8 +54,8 @@ public class GoogleSearchTest {
     @Test
     public void compareSellingRateWithPurchaseRateEUR() {
         openMainPageBank();
-        SelenideElement courseEURBuy = $(xpath("//div[@class='main-page-exchange__td--inner']/span[contains(.,'EUR')]/parent::*/../..//td[@class='main-page-exchange__td'][2]/div/span"));
-        SelenideElement courseEURSale = $(xpath("//div[@class='main-page-exchange__td--inner']/span[contains(.,'EUR')]/parent::*/../..//td[@class='main-page-exchange__td'][3]/div/span"));
+        SelenideElement courseEURBuy = $(xpath("//span[contains(.,'EUR')]/parent::*/../..//td[@class='main-page-exchange__td'][2]/div/span"));
+        SelenideElement courseEURSale = $(xpath("//span[contains(.,'EUR')]/parent::*/../..//td[@class='main-page-exchange__td'][3]/div/span"));
         $(".main-page-info__block").find(byText("курс обмена в")).scrollTo();
         element(courseEURBuy).shouldBe(visible);
         element(courseEURSale).shouldBe(visible);
