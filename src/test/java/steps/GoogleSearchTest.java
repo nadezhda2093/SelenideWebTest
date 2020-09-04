@@ -4,6 +4,7 @@ import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.SelenideElement;
 import org.openqa.selenium.By;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -67,6 +68,11 @@ public class GoogleSearchTest {
             System.out.println("Курс продажи EUR = " + rateSale + " меньше курса его покупки = " + rateBuy);
         }
 
+    }
+
+    @AfterClass
+    public void quiet() {
+        closeWebDriver();
     }
 
 
